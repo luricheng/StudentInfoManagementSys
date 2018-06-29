@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>416</width>
+    <height>128</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>账号: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>密码: </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="idLineEdit"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="passwordLineEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="studentRadioButton">
+       <property name="text">
+        <string>学生</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="teacherRadioButton">
+       <property name="text">
+        <string>教师</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="adminRadioButton">
+       <property name="text">
+        <string>管理员</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="okPushButton">
+       <property name="text">
+        <string>确定</string>
+       </property>
+       <property name="shortcut">
+        <string>Return</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelPushButton">
+       <property name="text">
+        <string>退出</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>idLineEdit</tabstop>
+  <tabstop>passwordLineEdit</tabstop>
+  <tabstop>okPushButton</tabstop>
+  <tabstop>cancelPushButton</tabstop>
+  <tabstop>studentRadioButton</tabstop>
+  <tabstop>teacherRadioButton</tabstop>
+  <tabstop>adminRadioButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
